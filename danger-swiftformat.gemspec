@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'swiftformat/gem_version.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'danger-swiftformat'
+  spec.name          = 'danger-swiftformat-soushi'
   spec.version       = Swiftformat::VERSION
   spec.authors       = ['Vincent Garrigues']
   spec.email         = ['vincent.garrigues@gmail.com']
