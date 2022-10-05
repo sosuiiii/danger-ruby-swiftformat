@@ -55,9 +55,9 @@ module Danger
         next if match.count < 2
 
         errors << {
-            file: match[0].sub("#{Dir.pwd}/", ""),
-            rules: match[1].split(",").map(&:strip)
+            message: "make swiftformat-all でformatしてください。",
         }
+        break
       end
       errors
     end
